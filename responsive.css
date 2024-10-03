@@ -291,7 +291,7 @@
 @media (max-width: 768px) {
   .esprit {
     width: 100%;
-    height: 278vh;
+    height: 282.5vh;
     display: block;
     padding: 0px 10px;
     /* background-color: green; */
@@ -423,13 +423,13 @@
 @media (max-width: 768px) {
   .fresh {
     width: 100%;
-    height: 280vh;
+    height: 270vh;
     display: block;
     padding: 0px;
   }
   .fresh1 {
     width: 100%;
-    height: 208vh;
+    height: 205vh;
     border: 1px solid rgb(213, 211, 211);
     margin: 0px;
     padding: 13px;
@@ -550,6 +550,7 @@
     width: 100%;
     height: 175vh;
     display: block;
+    /* background-color: green; */
   }
   .our_story1 {
     width: 100%;
@@ -634,7 +635,7 @@
   }
   .shop_inner_1 img{
     width: 100%;
-    height: 65vh;
+    height: 60vh;
   }
 }
 

@@ -714,7 +714,8 @@
     transition: all 0.3s ease-in-out;
     background-color: #020202;
     position: relative;
-    top: 12px;
+    top: 14px;
+    right: 12px;
     z-index: 10;
   }
   @media (max-width: 768px) {

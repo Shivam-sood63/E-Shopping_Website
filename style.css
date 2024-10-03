@@ -1,0 +1,803 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  z-index: -12 !important;
+}
+nav img {
+  width: 20%;
+  height: 22px;
+}
+.home{
+  color:#717fe0
+}
+/* .home::active{
+  color: #717fe0;
+} */
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(249, 252, 252);
+}
+.space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding-left: 50px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.1vw;
+  color: black;
+  font-weight: 600;
+}
+nav a:hover {
+  color: #717fe0;
+  text-decoration: none;
+}
+nav ul li ul {
+  display: block;
+  position: absolute;
+  padding: 0;
+}
+nav ul li ul li {
+  position: relative;
+  right: 60px;
+  display: none;
+  background-color: white;
+  margin-left: 60px;
+}
+.iconss {
+  position: absolute;
+  right: 40px;
+  top: 16px;
+}
+nav i {
+  margin: 10px;
+  font-size: 1.5vw;
+}
+nav i:hover {
+  color: #717fe0;
+}
+nav ul li:hover ul li {
+  display: block;
+  z-index: 20;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-bottom: 12px;
+  position: relative;
+  right: 70px;
+}
+.carousel-inner {
+  z-index: -10;
+}
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ---------------------------section 2 start---------------- */
+.carousel-caption h3 {
+  position: relative;
+  right: 350px;
+  bottom: 130px;
+  color: black;
+  font-size: 30px;
+}
+.carousel-caption p {
+  position: relative;
+  right: 370px;
+  bottom: 130px;
+  color: black;
+  font-size: 30px;
+}
+.carousel-caption button {
+  width: 160px;
+  height: 45px;
+  position: relative;
+  right: 470px;
+  bottom: 130px;
+  color: black;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #717fe0;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.carousel-caption button:hover {
+  background-color: black;
+}
+.carousel-caption .sk {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: PlayfairDisplay-Bold;
+}
+.carousel-item .sk3 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: PlayfairDisplay-Bold;
+  padding-left: 150px;
+}
+.sk2 {
+  padding-right: 200px;
+}
+.carousel-item .sk4 {
+  margin-right: 40px;
+}
+.carousel-caption .sk5 {
+  position: relative;
+  right: 410px;
+}
+.carousel-caption .sk6 {
+  position: relative;
+  right: 320px;
+  font-size: 70px;
+  font-family: PlayfairDisplay-Bold;
+  font-weight: 600;
+}
+.carousel-caption .sk7 {
+  margin-right: 80px;
+}
+/*-------------------- SECTION 3 START----------WOMEN PORTION  */
+.women {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  padding: 30px 40px;
+}
+.women img {
+  width: 100%;
+  border: 1px solid rgb(209, 206, 206);
+}
+.prt1 {
+  width: 33.33%;
+  height: 42vh;
+  margin: 15px;
+}
+.prt1 h4,
+.prt1 p {
+  position: relative;
+  bottom: 210px;
+  left: 30px;
+  margin: 0;
+  font-weight: 610;
+}
+.prt2 {
+  width: 33.33%;
+  height: 42vh;
+  margin: 15px;
+}
+.prt2 h4,
+.prt2 p {
+  position: relative;
+  bottom: 210px;
+  left: 30px;
+  margin: 0;
+  font-weight: 610;
+}
+.prt3 {
+  width: 33.33%;
+  height: 42vh;
+  margin: 15px;
+}
+.prt3 h4,
+.prt3 p {
+  position: relative;
+  bottom: 210px;
+  left: 30px;
+  margin: 0;
+  font-weight: 610;
+}
+/* --------------------SECTION 3 START PRODUCT OVERVIEW----------- */
+.product {
+  width: 100%;
+  height: 8vh;
+}
+.product h1 {
+  padding-left: 55px;
+  font-weight: 700;
+}
+
+.all_products {
+  width: 100%;
+  height: 10vh;
+  z-index: -12 !important;
+  /* z-index: -2; */
+  /* background-color: aqua; */
+}
+
+.nav2 {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+}
+
+.navv {
+  /* background-color: bisque; */
+  /* z-index: -10; */
+}
+
+.nav2 ul {
+  display: flex;
+  align-items: center;
+}
+.nav2 ul li {
+  position: relative;
+  left: 47px;
+  list-style: none;
+  margin: 7px;
+  font-size: 14px;
+}
+.nav2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.two_btns {
+  width: 50%;
+  text-align: end;
+  margin-right: 47px;
+}
+.two_btns button {
+  color: rgb(228, 9, 9);
+}
+.two_btns button:hover {
+  background-color: #717fe0;
+  color: white;
+  transform: scale(1.2);
+  transition: 0.7s;
+  border-radius: 20px;
+}
+.navv {
+  width: 50%;
+  align-items: end;
+  z-index: -12;
+}
+.nav2 button {
+  padding: 7px 40px;
+  margin: 10px;
+  font-size: 13px;
+  border: none;
+  background-color: rgb(239, 236, 236);
+  color: gray;
+  transition: 0.7s;
+}
+/* -----------------SECTION 5 START -------------------- */
+.esprit {
+  width: 100%;
+  height: 74vh;
+  display: flex;
+  padding: 10px 40px;
+}
+.esprit img {
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+}
+.esprit p {
+  padding: 10px 16px;
+  font-size: 13px;
+}
+.esp1 {
+  width: 23vw;
+  height: 360px;
+}
+.esp2 {
+  width: 23vw;
+  height: 360px;
+}
+.esp3 {
+  width: 23vw;
+  height: 360px;
+}
+.esp4 {
+  width: 23vw;
+  height: 360px;
+}
+.loadmore {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.loadmore button {
+  padding: 10px 50px;
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  transition: 0.7s;
+}
+.loadmore button:hover {
+  background-color: #717fe0;
+  color: white;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+/* ---------------------footer----------------- */
+.fotr {
+  width: 100%;
+  height: 44vh;
+  background-color: rgb(6, 5, 5);
+  display: flex;
+  color: white;
+}
+.fotr1 {
+  width: 25vw;
+  height: 50vh;
+  margin: 10px 30px;
+  padding: 50px 10px;
+}
+.fotr1 h6 {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+.fotr1 p {
+  font-size: 1vw;
+  line-height: 25px;
+  color: rgb(175, 173, 173);
+}
+.fotr1 input {
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 14px;
+}
+.fotr1 button {
+  padding: 10px 50px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: white;
+  background: #717fe0;
+  border: none;
+}
+.fotr1 button:hover {
+  background-color: #5060cb;
+}
+.payment {
+  width: 100%;
+  height: 15vh;
+  background-color: #070708;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment1 {
+  width: 30%;
+  height: 5vh;
+  background-color: rgb(8, 7, 7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pay {
+  padding: 3px;
+}
+.copyright {
+  width: 100%;
+  height: 8vh;
+  color: rgb(175, 173, 173);
+  background-color: #010101;
+  text-align: center;
+  font-size: 14px;
+}
+span {
+  color: rgb(52, 52, 246);
+}
+.fotr1 i {
+  font-size: 16px;
+  padding: 6px;
+  color: rgb(175, 173, 173);
+}
+/* ---------------------------FEATURES PORTON PAGE NO 3---------------------- */
+.fresh {
+  width: 100%;
+  height: 93vh;
+  display: flex;
+  padding: 60px;
+}
+.fresh1 {
+  width: 75%;
+  height: 72vh;
+  border: 1px solid rgb(213, 211, 211);
+  margin: 0 30px;
+}
+.quantity {
+  border-bottom: 1px solid rgb(213, 211, 211);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.quantity h4 {
+  font-size: 15px;
+}
+.straw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border-bottom: 1px solid rgb(213, 211, 211);
+}
+.straw h3 {
+  font-size: 16px;
+}
+.increase {
+  margin: 0;
+  display: flex;
+}
+.increase h3 {
+  border: 1px solid rgb(100, 99, 99);
+  padding: 9px 15px;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.btns button {
+  padding: 10px 40px;
+  margin: 12px 40px;
+  border-radius: 0px;
+  border: 1px solid rgb(225, 224, 224);
+  background-color: rgb(235, 233, 233);
+  font-size: 13px;
+  transition: 0.7s;
+}
+.btns button:hover {
+  background-color: #717fe0;
+  color: white;
+  border-radius: 20px;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.fresh2 {
+  width: 35%;
+  height: 72vh;
+  border: 1px solid rgb(213, 211, 211);
+  padding: 5px;
+}
+.fresh2 h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.fresh2 h4 {
+  font-size: 16px;
+}
+.fresh21,
+.fresh22,
+.fresh23,
+.fresh24,
+.fresh25 {
+  padding: 10px;
+}
+.fresh22 span {
+  padding-left: 10px;
+  color: black;
+}
+.fresh23 {
+  display: flex;
+  padding: 5px 10px;
+}
+.fresh23 p {
+  padding-left: 10px;
+  font-size: 14px;
+}
+.fresh24 {
+  margin-left: 75px;
+}
+.fresh24 input {
+  margin: 5px;
+  font-size: 13px;
+}
+.fresh25 span {
+  padding-left: 32px;
+  color: black;
+}
+.fresh26 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.fresh26 button {
+  padding: 12px 25px;
+  border-radius: 0px;
+  border: none;
+  font-size: 13px;
+  transition: 0.7s;
+}
+.fresh26 button:hover {
+  background-color: #717fe0;
+  color: white;
+  border-radius: 20px;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+/* ---------------------------------BLOG PAGE START PAGE NO 4-------------------------- */
+.blog_start img {
+  width: 100%;
+  height: auto;
+}
+.jan {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.jan1 {
+  width: 70%;
+  height: 90vh;
+}
+.jan1 img {
+  width: 100%;
+  height: 90vh;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.jan2 {
+  width: 30%;
+  height: 90vh;
+  padding: 0px;
+}
+.jan2 h1 {
+  padding: 20px 30px;
+  font-size: 30px;
+}
+.jan2 input {
+  display: block;
+  padding: 0.5vw 2vw;
+  margin: 30px;
+  border: 0.1px solid rgb(212, 209, 209);
+}
+.loadd {
+  width: 100%;
+  height: 18vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loadd button {
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: none;
+}
+.loadd button:hover {
+  background-color: #717fe0;
+  color: white;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+/* -----------------------------------ABOUT PORTION START PAGE NO 5----------------- */
+.about_photo {
+  width: 100%;
+  height: 110vh;
+}
+.about_photo img {
+  width: 100%;
+  height: auto;
+}
+.our_story {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+}
+.our_story1 {
+  width: 60%;
+  padding: 70px;
+}
+.our_story1 h1 {
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+.our_story1 p {
+  line-height: 28px;
+}
+.our_story2 {
+  width: 40%;
+  padding: 70px;
+}
+.our_story2 img {
+  width: 100%;
+}
+.our_misson {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.our_misson1 {
+  width: 40%;
+  padding: 70px;
+}
+.our_misson2 h1 {
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+.our_misson2 p {
+  line-height: 28px;
+}
+.our_misson2 {
+  width: 60%;
+  padding: 70px;
+}
+.our_misson1 img {
+  width: 100%;
+}
+/* -----------------------------CONTACT PAGE START PAGE NO 6-------------------------- */
+.contact_sec {
+  width: 100%;
+  height: 94.9vh;
+}
+.contact_sec img {
+  width: 100%;
+  height: auto;
+}
+.contact_form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact_form_1 {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  border: 0.1px solid rgb(231, 228, 228);
+}
+.form_1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1px solid rgb(231, 228, 228);
+}
+.form_1 h1 {
+  font-size: 28px;
+  text-align: center;
+  padding: 20px 0px;
+}
+.formm {
+  width: 60%;
+  height: 60vh;
+}
+.formm input {
+  width: 25vw;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.formm textarea {
+  width: 25vw;
+  height: 20vh;
+  padding: 5px;
+}
+.formm button {
+  width: 95%;
+  height: 7vh;
+  margin-top: 15px;
+  border-radius: 15vw;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 630;
+}
+.formm button:hover {
+  background-color: #717fe0;
+}
+.form_2 {
+  width: 50%;
+  border: 0.1px solid rgb(231, 228, 228);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_2 h1 {
+  font-size: 18px;
+}
+.address_side {
+  width: 60%;
+  height: 55vh;
+}
+.address_side h1 {
+  font-size: 21px;
+  padding: 15px 0px;
+}
+.address_side p {
+  font-size: 15px;
+  padding: 0 20px;
+}
+#mail {
+  color: blue;
+}
+.address_side i {
+  position: relative;
+  right: 15px;
+  top: 2px;
+}
+.shop_now_part{
+  width: 100%;
+  height: 16vh;
+  padding-left: 88px;
+  display: flex;
+  align-items: center;
+}
+.shop_section{
+  width: 100%;
+  height: 66vh;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop_inner{
+  width: 90%;
+  height: 65vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+.shop_inner_1{
+  width:22.5%;
+  height: 65vh;
+  /* background-color: aqua; */
+  margin: 12px;
+}
+.shop_inner_1 img{
+  width: 100%;
+  height: 55vh;
+}
+.shop_inner_1 p{
+  position: relative;
+  bottom: 10px;
+  font-size: 13px;
+}
+.shop_inner_1 h5{
+  font-size: 17px;
+}
+.bottom_button{
+  width: 100%;
+  height: 16vh;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* text-align: center; */
+}
+.bottom_button button{
+  padding: 10px 50px;
+  border: none;
+  /* font-weight: 600; */
+  transition:.7s;
+}
+.bottom_button button:hover{
+  background-color: #717fe0;
+  color: white;
+  transform: scaleX(1.1);
+  transition:.7s;
+  border-radius: 30px;
+}

@@ -637,21 +637,7 @@
 }
 
 /* -----------------------------CONTACT PAGE START PAGE NO 6-------------------------- */
-@media(min-width:400px){
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3.4px;
-    margin: 5px 330px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #020202;
-    position: relative;
-    top: 100px;
-    right: 100px;
-    z-index: 10;
-  }
-}
+
 @media (max-width: 768px) {
   .contact_sec {
     width: 100%;

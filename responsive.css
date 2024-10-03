@@ -291,9 +291,10 @@
 @media (max-width: 768px) {
   .esprit {
     width: 100%;
-    height: 282vh;
+    height: 283vh;
     display: block;
     padding: 0px 10px;
+    /* background-color: green; */
   }
   .esprit img {
     width: 100%;
@@ -307,19 +308,23 @@
   }
   .esp1 {
     width: 100%;
-    height: 480px;
+    height: 472px;
+    /* background-color: antiquewhite; */
   }
   .esp2 {
     width: 100%;
-    height: 480px;
+    height: 472px;
+    /* background-color: #717fe0; */
   }
   .esp3 {
     width: 100%;
-    height: 480px;
+    height: 472px;
+    /* background-color: aqua; */
   }
   .esp4 {
     width: 100%;
-    height: 480px;
+    height: 472px;
+    /* background-color: aquamarine; */
   }
   .loadmore {
     width: 100%;
